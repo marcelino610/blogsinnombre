@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="articles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="emergentes.css">
+    <link rel="stylesheet" href="contacto.css">
+    <title>Blog sin nombre</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-op" id="nav-aut">
+                <a href="index.html">Inicio</a><br>
+            </div>
+            <div class="nav-op" id="nav-aut">
+                <a href="autors.html">Autores</a><br>
+            </div>
+            <div class="nav-op">
+                <a href="contacto.html">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div id="cont-grid">
+            <div>
+                <h3 class="center-txt w-2th f-s-25">Formulario de contacto</h3>
+                <p class="w-2th center-txt f-s-15">Para consultas o comentarios sobre el blog o su contenido escribí aquí tu mensaje,
+                    o utilizá la dirección de correo electrónico indicada.
+                </p>
+                <form>
+                    <input type="text" class="marg-2 w-th" id="nombre-contacto" placeholder="Nombre">
+                    <input type="text" class="marg-2 w-th" id="mail-contacto" placeholder="Email"><br>
+                    <textarea name="" class="marg-2" id="mensaje-contacto" cols="55" rows="15" placeholder="Escriba aquí su mensaje"></textarea><br>
+                    <button class="marg-2 cursor">Enviar</button>
+                </form>
+            </div>
+            <div>
+                <div>
+                    <h3 class="center-txt f-s-25">Mails de contacto</h3>
+                    <ul class="no-style">
+                        <li>blogsinnombre@mail.com</li>
+                        <li>mtcicero@mail.com</li>
+                        <li>mtcicerominor@mail.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <p>También podés recibir novedades en tu bandeja de correo electrónico.</p>
+                    <input type="text" class="w-th" id="nom-mail" placeholder="Nombre">
+                    <input type="text" class="w-th" id="dir-mail" placeholder="Email">
+                    <button class="cursor" id="mail-susc">Suscribirme</button>
+                    <p id="c-o" style="display: none;">Ambos campos deben ser rellenados</p>
+                </div>
+                <div>
+                    <p>También podés seguirnos en Instagram: <a href="" class="black" target="_blank"><i>@cuentadeig</i></a></p>
+                </div>
+            </div>
+        </div>   
+    </section>
+    <footer>
+        <div>
+        <div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="autors.html">Autores</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="http://www.instagram.com" target="_blank">Instagram</a></li>
+                <li>mail@blogsinnombre.com</li>
+            </ul>
+        </div>
+        <div>
+            <p>Recibir novedades</p>
+            <input id="f-s-name" type="text" placeholder="Nombre">
+            <input id="f-s-mail" type="email" placeholder="Email"><br>
+            <p id="c-n">Ambos campos deben ser rellenados</p>
+            <button id="f-susc">Enviar</button>
+        </div>
+        <div>
+            <p>Sitio desarrollado por Marcelino Bazzana Sosa</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="contacto.js"></script>
+    
+</body>
+</html>

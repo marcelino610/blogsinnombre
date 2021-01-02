@@ -1,0 +1,112 @@
+section {
+    background-color: white;
+}
+.coment-card {
+    width: 70%;
+    height: auto;
+    border: solid 1px;
+    margin-left: 5%;
+    background-color: white;
+}
+.coment-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    padding: 2%;
+}
+.coment-footer {
+    background-color: lightgray;
+    margin-top: 5px;
+}
+.coment-f-l {
+    margin-top: 0;
+    background-color: lightgray;
+    display: inline;
+    width: auto;
+    padding-left: 2%;
+}
+.coment-f-r {
+    margin-top: 0;
+    background-color: lightgray;
+    display: inline;
+    float: right;
+    width: auto;
+    padding-right: 2%;
+}
+
+.post-pres {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    padding: 0.5em;
+    margin-top: 0.6%;
+}
+.post-header {
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.post-h-l {
+    line-height: 1px;
+    display: inline;
+    float: left;
+    margin-top: 0;
+    color: rgb(202, 199, 199);
+}
+.post-h-r {
+    line-height: 1px;
+    display: inline;
+    float: right;
+    margin-top: 0;
+    color: rgb(202, 199, 199);
+}
+.post-text {
+    margin-top: 5px;
+    width: 100%;
+    text-align: justify;
+}
+.post-text-fp {
+    margin-top: 7%;
+}
+.post-coment {
+    margin-top: 25px;
+    margin-left: 5%;
+}
+.two-width {
+    width: 200px;
+    height: 18px;
+}
+.inline {
+    display: inline;
+}
+.titulo-articulo{
+    padding: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+}
+.titulo-post{
+    margin-top: 0;
+    background-image: url("../prueba-arts.jpg");
+    background-size: cover;
+    background-color: blue;
+    width: 100%;
+    height: 350px;
+}
+.titulo-post>a{
+    color: mintcream !important;
+    font-size: 30px;
+    font-family: 'Work Sans', sans-serif;
+}
+#f-dest{
+    font-size: 20px;
+    text-emphasis-style: bold;
+    font-style: italic;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#comentario-verif {
+    color: red;
+    display: none;
+    font-size: 11px;
+}

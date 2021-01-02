@@ -1,0 +1,42 @@
+#cont-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2%;
+    width: 90%;
+}
+.marg-2 {
+    margin: 1%;
+}
+.w-th {
+    width: 36%;
+}
+.w-2th {
+    width: 70%;
+}
+.center-txt {
+    text-align: center;
+}
+.f-s-25 {
+    font-size: 25px;
+}
+.f-s-15 {
+    font-size: 15px;
+}
+.no-style{
+    list-style: none;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+#c-o {
+    display: none;
+    color: red;
+    font-size: 11px;
+}
+section {
+    background-color: white !important;
+}
+.black{
+    color: black;
+}
